@@ -6,7 +6,6 @@
 }
 
 .top-wrapper{
-    width: 100%;
     height: 80px;
     background: #000000;
     /*display: inline-block;*/
@@ -24,13 +23,13 @@
 }
 
 .top-logo a{
-    font-size: 35px;
+    font-size: 30px;
     color: #ffffff;
     text-decoration-line: none;
 }
 
 .top-nav{
-    width: 1000px;
+    width: 70%;
     height: 80px;
     /*background: #777777;*/
     margin: auto;
@@ -38,7 +37,6 @@
 }
 
 .top-nav > ul {
-    width: 100%;
     height: 100%;
     display: flex;
     justify-content: space-around;
@@ -60,13 +58,11 @@
 }
 
 .top-nav > ul > li > a{
-    font-size: 20px;
     color: #ffffff;
     text-decoration-line: none;
 }
 
 .content-wrapper{
-    width: 100%;
     height: 700px;
     background-image: url("../image/timg.jpg");
     background-size: 100% 100%;
@@ -125,5 +121,7 @@
 .safe_forum:hover .none_block{
     display: block;
 }
+
+
 
 
