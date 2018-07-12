@@ -4,6 +4,9 @@
     list-style: none;
     font-family: "微软雅黑";
 }
+body{
+    background: url("../image/地球.png");
+}
 
 .top-wrapper{
     width: 990px;
@@ -15,9 +18,8 @@
 
 .top-logo{
     position: relative;
-    top: 20px;
-    left: 10px;
     float: left;
+    top: 27px;
 }
 
 .top-nav{
@@ -133,6 +135,9 @@
     width: 990px;
     height: 310px;
     margin: 0 auto;
+    /*background: #17181f;*/
+    background: url("../image/conbakc.png");
+    background-size: 990px 310px;
 }
 
 
