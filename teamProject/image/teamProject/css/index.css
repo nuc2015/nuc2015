@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: "微软雅黑";
+}
+body{
+    background: url("../image/地球.png");
+}
+
+.top-wrapper{
+    width: 990px;
+    height: 130px;
+    background: #17181f;
+    /*background: red;*/
+    margin: 0 auto;
+}
+
+.top-logo{
+    position: relative;
+    float: left;
+    top: 27px;
+}
+
+.top-nav{
+    position: relative;
+    float: right;
+    height: 130px;
+}
+
+.top-nav > ul{
+    display: flex;
+}
+
+.top-nav > ul >li{
+    height: 130px;
+    width: 90px;
+    text-align: center;
+    color: white;
+    padding-top: 35px;
+    box-sizing: border-box;
+}
+
+.top-nav > ul >li > img{
+    height: 35px;
+}
+
+.choose-menu{
+    width: 990px;
+    height: 200px;
+    margin: 0 auto;
+    background: #17181f;
+    opacity:0.95;
+    display: none;
+    z-index: 1000;
+    float: left;
+}
+
+.choose-menu > ul{
+    display: flex;
+}
+
+.choose-menu > ul > li{
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    color: white;
+    margin: 20px;
+}
+
+.content-wrapper{
+    width: 990px;
+    margin: 0 auto;
+    background: red;
+    font-size: 50px;
+}
+
+.banner-wrapper{
+    width: 990px;
+    height: 360px;
+    margin: 0 auto;
+    background: #3c6b99;
+}
+
+.introduction-wrapper{
+    width: 990px;
+    height: 285px;
+    margin: 0 auto;
+    background: #28294b;
+}
+
+.introduction-wrapper img{
+    float: left;
+    position: relative;
+    top: 37px;
+    left: 50px;
+}
+
+
+.info-content{
+    width: 463px;
+    height: 217px;
+    float: right;
+    position: relative;
+    top: 37px;
+    right: 50px;
+    color: white;
+    font-size: 12px;
+    box-sizing: border-box;
+    padding: 0 83px;
+    line-height: 20px;
+}
+
+.info-content p{
+    text-align: center;
+}
+
+.view_more{
+    float: right;
+    position: relative;
+    bottom: 25px;
+    right: -83px;
+    width: 84px;
+    height: 28px;
+    border-radius: 9px;
+    opacity:0.95;
+    background: #28294b;
+    color: white;
+}
+
+
+
+.content-wrapper{
+    width: 990px;
+    height: 310px;
+    margin: 0 auto;
+    /*background: #17181f;*/
+    background: url("../image/conbakc.png");
+    background-size: 990px 310px;
+}
+
+
+.footer-wrapper{
+    width:990px;
+    height:80px;
+    background:#0d0d0d;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+.footer-wrapper p{
+    text-align: center;
+    color:#898989;
+    font-size: 16px;
+}
+
