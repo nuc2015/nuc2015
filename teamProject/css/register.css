@@ -38,6 +38,13 @@
     height: 707px;
     background: #f3f3f2;
 }
+
+.content-inner{
+    width: 1200px;
+    height: 707px;
+    margin: 0 auto;
+}
+
 .register-box{
     width: 622px;
     height: 507px;
