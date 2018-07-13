@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0;
+    list-style: none;
+    font-family: "微软雅黑";
+}
+
+
+.top-wrapper{
+    width: 100%;
+    height: 77px;
+    background: #dbe5e9;
+}
+
+.top-inner{
+    margin: 0 auto;
+    width: 1200px;
+    height: 77px;
+}
+
+.top-inner img{
+    position: relative;
+    top: 25px;
+    float: left;
+}
+
+.top-inner a{
+    text-decoration: none;
+    color: #434c75;
+    display: block;
+    float: right;
+    position: relative;
+    top: 38px;
+}
+
+.content-wrapper{
+    width: 100%;
+    height: 707px;
+    background: #f3f3f2;
+}
+.register-box{
+    width: 622px;
+    height: 507px;
+    background: #ffffff;
+    margin: 0 auto;
+    position: relative;
+    top: 142px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 62px;
+}
+
+.register-box input{
+    width: 300px;
+    height: 31px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 26px;
+    color: #bef7f3;
+    font-size: 13.76px;
+}
+.register-box input:focus{
+    color: #000000;
+}
+
+
+.register-box .submit{
+    border-radius: 0px;
+    width: 299px;
+    height: 41px;
+    background: #2cece1;
+    font-size: 15px;
+    color: white;
+}
+
+.register-box .submit:hover{
+    cursor: pointer;
+}
+.register-box p{
+    height: 100px;
+    line-height: 100px;
+}
+
+
+.register-box .checkbox{
+    width: 16px;
+    height: 16px;
+    position: relative;
+    float: left;
+    margin: 0;
+    top: 43px;
+    left: 163px;
+}
+
+.register-box  a,span{
+    position: relative;
+    text-decoration: none;
+    color: #7af1e9;
+
+}
+.register-box span:nth-child(2){
+    float: left;
+    left: 160px;
+}
+
+.register-box span:nth-child(3){
+    float: right;
+    right: 160px;
+}
+
+.footer-wrapper{
+    width:100%;
+    height:80px;
+    background:#0d0d0d;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+.footer-wrapper p{
+    text-align: center;
+    color:#898989;
+    font-size: 16px;
+}

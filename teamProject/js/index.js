@@ -4,8 +4,6 @@
             color: "red",
             cursor : "pointer"
         });
-        $(this).find("img").valueOf();
-
         $(".choose-menu").css({
            display: "block"
         });
@@ -75,6 +73,7 @@
             color: "white",
             background: "#17181f"
         });
+
         $(this).find("img").css({
             background: ""
         });
