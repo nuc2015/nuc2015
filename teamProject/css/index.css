@@ -66,21 +66,24 @@ body{
 }
 
 .choose-menu{
+    position: relative;
+    top: 20px;
     background: #17181f;
     opacity:0.95;
     display: none;
     z-index: 1000;
     float: left;
-}
-
-.choose-menu > ul{
-    /*display: flex;*/
+    min-width: 85px;
     min-height: 0px;
     overflow: auto;
 }
 
+.choose-menu > ul{
+    /*display: flex;*/
+}
+
 .choose-menu > ul > li{
-    width: 85px;
+    width: 100%;
     line-height: 40px;
     float: left;
     color: white;
