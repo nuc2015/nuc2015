@@ -4,9 +4,12 @@
             color: "red",
             cursor : "pointer"
         });
-        $(".choose-menu").css({
-           display: "block"
+        $(this).find(".choose-menu").css({
+            display: "block"
         });
+        // $(".choose-menu").css({
+        //    display: "block"
+        // });
         if (this.className=="first_page"){
             $(".first_page img").attr('src','image/首页2.png');
             $(".choose-menu").append("<ul>\n" +
